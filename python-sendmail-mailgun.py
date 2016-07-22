@@ -26,5 +26,5 @@ def send_simple_message(to):
 # [END simple_message]
 
 if __name__ == '__main__':
-    send_simple_message(ninhthua82us@gmail.com)
+    send_simple_message('ninhthua82us@gmail.com')
 # [END app]
