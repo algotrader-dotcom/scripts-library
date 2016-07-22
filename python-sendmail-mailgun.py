@@ -26,6 +26,6 @@ def send_simple_message(to):
 # [END simple_message]
 
 if __name__ == '__main__':
-    to = 'you-email@gmail.com'
+    to = 'mykim200483@gmail.com'
     send_simple_message(to)
 # [END app]
