@@ -6,8 +6,8 @@ from flask import Flask, render_template, request
 import requests
 
 # [START config]
-MAILGUN_DOMAIN_NAME = 'thayhuy.net'
-MAILGUN_API_KEY = 'key-87ydupeg055ybas7hu5-w8m5fttk8td5'
+MAILGUN_DOMAIN_NAME = 'your-domain.com'
+MAILGUN_API_KEY = 'your-key'
 # [END config]
 
 # [START simple_message]
@@ -26,6 +26,6 @@ def send_simple_message(to):
 # [END simple_message]
 
 if __name__ == '__main__':
-    to = 'mykim200483@gmail.com'
+    to = 'your-email@gmail.com'
     send_simple_message(to)
 # [END app]
