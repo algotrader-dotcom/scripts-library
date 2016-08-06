@@ -18,7 +18,7 @@ if [[ "${CONFIRM}" =~ ^[Yy]$ ]]; then
 	sleep 5
 	
 	# Creating the password
-	DB_ROOT_PASS='khoican'
+	DB_ROOT_PASS='password'
 	DB_ROOT_USER='root'
 	
 	# Update root user with new password
