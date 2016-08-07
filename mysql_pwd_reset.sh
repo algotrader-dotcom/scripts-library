@@ -1,3 +1,6 @@
+# How to use
+# mysql_pwd_reset.sh your-password
+
 echo "Reset mysql root password with: $1"
 sleep 3
 
