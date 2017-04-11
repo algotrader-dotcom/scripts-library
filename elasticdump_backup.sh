@@ -25,3 +25,8 @@ do
 	  --output=$es_backup_data \
 	  --type=data
 done
+# How to restore
+# elasticdump --input=./received_email_analyzer.json --output=http://es-host:9200/received_email --type=analyzer
+# elasticdump --input=./received_email_mapping.json --output=http://es-host:9200/received_email --type=mapping
+# elasticdump --input=./received_email_data.json --output=http://es-host:9200/received_email --type=data
+ 
